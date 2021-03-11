@@ -1,0 +1,123 @@
+
+
+  body {
+    margin: 0;
+    padding: 40px;
+    background-color: cornflowerblue;
+    background-image: url("leo.jpg");
+  mask-repeat: no-repeat center center fixed;
+    
+ 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+color: white;
+}
+
+
+
+
+
+
+#Hab {
+
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 10px;
+
+}
+
+
+
+
+#portfolio {
+display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    flex: auto;
+    margin-top: 50px;
+    margin-left: 15px;
+
+justify-content: center;  
+text-align: center;
+
+
+}
+
+
+
+
+
+#proyectos{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+.hr {
+   
+    width: auto;
+}
+
+
+
+
+
+
+#imagen{
+   flex: auto;
+}
+
+
+
+
+
+
+#contacto ul {
+    display: inline;
+        float: left;
+        justify-content: center;  
+  
+ }
+
+
+
+
+
+ .imgRedonda {
+    width:240px;
+    height:200px;
+    border-radius: 150px;
+align-content: center;
+}
+
+
+
+
+
+#titulo {
+  
+    flex: auto;
+    margin-top: 50px;
+    margin-left: 15px;
+
+justify-content: center;  
+text-align: center;
+
+}
+
+
+#iconos1 {
+  
+    flex: auto;
+    
+justify-content: center;  
+text-align: center;
+margin-top: 50px;
+margin-left: 15px;
+}
