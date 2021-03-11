@@ -7,32 +7,109 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display:  inline-block; 
 
+    text-align:center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos {
+    display:none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres {
+    margin-top: 100px ;
+    margin-left: 200px ;
+   
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro {
+    background-size: 80px ; 
+    position: absolute;
+ 
+    top: 2px;
+}
 
 
 
-/* Ejercicio 5: */
+/* Ejercicio 5 y 6: */
 
 /* Acá va tu código */
 
+#ejercicioCinco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+justify-content: space-evenly;
+}
 
 
-/* Ejercicio 6. */
+
+/* Ejercicio 7. */
+#ejercicioSiete {
+    display: grid;
+
+  flex-direction: column;
+  background-color: aqua;
+  height: 500px;
+  
+}
+
+
+#elementoUno {
+margin-top: 5px;
+margin-left: 5px;
+margin-block-end: 10px;
+    background-color: #107FC9;
+    padding: 10px;
+    width: 150px;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+#elementoDos {
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-block-end: 10px;
+    list-style: none;
+  padding: 5px;
+  background-color: #ff9100;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 44;
+  font-style: italic;
+  justify-content: center;
+}
+
+
+#elementoTres {
+    margin-top: 5px;
+margin-left: 50px;
+margin-block-end: 10px;
+    justify-content: flex-end;
+    align-items: end;
+
+}
+
+#elementoCuatro {
+    margin-top: 5px;
+margin-left: 50px;
+margin-block-end: 10px;
+    justify-content: flex-end;
+    align-items: end;
+  
+}
